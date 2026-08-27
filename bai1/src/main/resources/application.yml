@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: bai1
+  main:
+    banner-mode: off
+  ai:
+    mcp:
+      server:
+        postgres:
+          connection-url: postgresql://postgres:postgres@localhost:5432/rikkei_logistics_db
+        filesystem:
+          allowed-dir: "C:/data/logistics"
